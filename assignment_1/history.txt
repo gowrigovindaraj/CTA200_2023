@@ -1,0 +1,100 @@
+    1  /cita/local/bin/passwd
+    2  exit
+    3  ssh -g -L5906:cosmo4.cita.utoronto.ca:6
+    4  ssh -g -L5906:cosmo4.cita.utoronto.ca:6 govindaraj@gw.cita.utoronto.ca
+    5  exit
+    6  ls -la
+    7  cd Desktop/
+    8  ls
+    9  ls -la
+   10  exit
+   11  whoami
+   12  who
+   13  echo $HOSTNAME
+   14  exit
+   15  ssh lobster
+   16  exit
+   17  ls -la
+   18  cd ../../
+   19  ls -la
+   20  cd mnt/
+   21  ls -la
+   22  cd scratch-lustre/
+   23  mkdir CTA200_2023
+   24  ls -la
+   25  cd govindaraj/
+   26  mkdir CTA200_2023
+   27  ls
+   28  mkdir assingment_1
+   29  mv assingment_1/ assignment_1
+   30  ls
+   31  cd assignment_1/
+   32  nano README.md
+   33  vi README.md
+   34  cat README.md 
+   35  vi README.md 
+   36  pwd
+   37  ls /mnt/scratch-lustre/murray/
+   38  cd /mnt/scratch-lustre/murray/
+   39  ls
+   40  cd repos/
+   41  ls
+   42  cd ..
+   43  find Hello_world.py
+   44  cd ..
+   45  pwd
+   46  cd -
+   47  find Hello_word.py
+   48  find Hello_world.py
+   49  tree
+   50  find Hello_world.py
+   51  pwd
+   52  find . -name "Hello.*"
+   53  cd /home/cta200/
+   54  ls
+   55  find . -name "Hello.*"
+   56  find Hello_world.py
+   57  find murray
+   58  cd /mnt/scratch-lustre/murray/
+   59  pwd
+   60  echo $HOME
+   61  cd /home/murray
+   62  ls
+   63  find Hello_world.py
+   64  pwd
+   65  cp Hello_world.py /mnt/scratch-lustre/govindaraj/
+   66  cp Hello_world.c /mnt/scratch-lustre/govindaraj/
+   67  cd /mnt/scratch-lustre/govindaraj/
+   68  ls
+   69  mv Hello_world.* assignment_1/
+   70  ls
+   71  cd assignment_1/
+   72  ls
+   73  mv Hello_world.c Hello_world_govindaraj.c
+   74  mv Hello_world.py Hello_world_govindaraj.py
+   75  ls
+   76  module avail
+   77  module load gcc/11.2.0
+   78  avail
+   79  gcc
+   80  gcc Hello_world_govindaraj.c
+   81  gcc Hello_world_govindaraj.c -o Hello_world_govindaraj.x
+   82  ls
+   83  rm a.out
+   84  ls
+   85  ./Hello_world_govindaraj.x 
+   86  python3 Hello_world_govindaraj.py
+   87  which python
+   88  python Hello_world_govindaraj.py
+   89  vi Hello_world_govindaraj.c
+   90  vi Hello_world_govindaraj.py
+   91  vi Hello_world_govindaraj.c
+   92  python Hello_world_govindaraj.py
+   93  gcc Hello_world_govindaraj.c -o Hello_world_govindaraj.x
+   94  ./Hello_world_govindaraj.x 
+   95  ./Hello_world_govindaraj.x > output_c.txt
+   96  ls
+   97  cat output_c.txt 
+   98  python Hello_world_govindaraj.py > output_python.txt
+   99  ls
+  100  history > history.txt
